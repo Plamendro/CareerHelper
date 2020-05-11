@@ -1,0 +1,51 @@
+.review {padding-bottom: 5px;}
+.panel-body.review-container {padding-top: 0;}
+.review-header {margin-bottom: 10px;}
+.reviewAuthor {margin: 0 5px;}
+.reviewTimestamp {color: #ccc;}
+
+.label-facility {margin-right: 2px}
+.rating-stars {margin-left: 3px;}
+#filter {margin-left: 4px;}
+.hyperlinks{font: bold 20px Helvetica;
+    text-decoration: none;
+    text-align:center;
+    background-color: none;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;}
+.title
+{
+    font-weight:bold;
+    text-align:center;
+}
+.title2
+{
+    text-align:center;
+    font-weight:bold;
+}
+.brand
+{
+font-size:25px;
+}
+.navigation
+{   font-family:"Helvetica";
+    font-size:18px;
+}
+.about
+{
+    font-family:"Helvetica";
+    text-align:justify;
+    font-weight:bold;
+}
+.list
+{
+    font-family:"Helvetica"
+}
+.list1{
+    font-family:'Helvetica';
+    text-align:justify;
+}

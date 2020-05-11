@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  #banner.page-header
+    .row
+      .col-lg-12.col-xs-12
+        a.hyperlinks(href='/') Начало
+        h1.title= title
+   .row
+    .col-lg-12.col-xs-12
+      p.about !{(content).replace(/\n/g, '<br/>')}
+      p.hyperlinks
+       a(href='https://www.tugab.bg/') Технически Университет - Габрово 
+       br
+       a(href='http://career.tugab.bg/') Университетски кариерен център
+       br
+       a(href='https://www.facebook.com/UKCTUG/?__tn__=%2Cd%2CP-R&eid=ARCd0Y2u7fSV67XvHOcHaC8kuuz0yHe0rmxuXKBXT4tDRCyLAWNKAjXUu798nSksDAN3h6O3Apx063U6') Facebook страница на УКЦ към ТУ-Габрово
+    .container
+      span &copy; Пламен Розинов 2019

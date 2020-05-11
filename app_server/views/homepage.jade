@@ -1,0 +1,19 @@
+include layout.jade
+block content 
+ #banner.page-header
+  .row
+    .col-lg-12.col-xs-12
+     h1.title= pageHeader.title
+     h2.title= pageHeader.strapline 
+    small &nbsp;
+      div.hyperlinks
+       a.form(href='/internships') Търся стаж 
+       br
+       a.form(href='/jobs') Търся работа
+      small &nbsp;
+  .container
+       p.title2= sidebar
+       br
+       span &copy; Пламен Розинов 2019
+       
+

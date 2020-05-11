@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= message
+  h2= error.status
+  pre #{error.stack}
+  p We are sorry! The occured error will be fixed as soon as possible!

@@ -1,0 +1,42 @@
+extends layout
+block content
+  #banner.page-header
+    .row
+      .col-lg-6
+       a.hyperlinks(href='/') Начало
+       a.hyperlinks(href='/jobs') Работа
+       h1.title Обява за работа от #{doc.companyName}
+         small &nbsp;
+  .row
+    .col-xs-12.col-sm-8
+      .row.list-group 
+          .col-xs-12.list-group-item
+            h4.list1
+              p Име на компания:  #{doc.companyName}
+              p Тип обява:  #{doc.type} 
+              p Позиция:  #{doc.position} 
+              p Локация:  #{doc.location}
+              p Изисквания:
+              p 1.  #{doc.requirements[0]}
+              p 2.  #{doc.requirements[1]}
+              p 3.  #{doc.requirements[2]}
+              p Задължения:
+              p 1.  #{doc.obligations[0]}
+              p 2.  #{doc.obligations[1]}
+              p 3.  #{doc.obligations[2]}
+              p Компанията предлага:
+              p 1.  #{doc.benefits[0]}
+              p 2.  #{doc.benefits[1]}
+              p 3.  #{doc.benefits[2]}
+              p Документи за кандидатстване:  #{doc.applicationDocuments}
+              p Телефон:  #{doc.phone}
+              p Електронна поща:  #{doc.email}
+              p Уеб сайт: #{doc.website}
+              p Работно време:  #{doc.workTime}
+              p Дата на публикуване:  #{doc.publishDate}
+              p Повече за фирмата:  #{doc.companyInfo}
+              small &nbsp;   
+    .col-xs-12.col-sm-4 
+      p.lead= sidebar
+  .container
+      span &copy; Пламен Розинов 2019
